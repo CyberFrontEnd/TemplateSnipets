@@ -1,0 +1,29 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="description" content=" ")
+    meta(name="keywords" content=" ")
+    link(href="css/style.css", rel="stylesheet")
+
+    title checkbox radio
+  body
+
+    div(class="input-row")
+     input(id="radio-input-1" type="radio" value="myValue 1" name="radio-group" checked)
+     label(for="radio-input-1" class="input-helper input-helper--radio") myValue 1
+     br
+
+     input(id="radio-input-2" type="radio" value="myValue 2" name="radio-group")
+     label(for="radio-input-2" class="input-helper input-helper--radio") myValue 2
+
+
+    div(class="input-row")
+     input(id="checkbox-input-1" type="checkbox" value="myValue 1" checked)
+     label(for="checkbox-input-1" class="input-helper input-helper--checkbox") myValue 1
+     br
+
+     input(id="checkbox-input-2" type="checkbox" value="myValue 2")
+     label(for="checkbox-input-2" class="input-helper input-helper--checkbox") myValue 2

@@ -1,0 +1,25 @@
+doctype html
+html(lang="ru")
+ head
+   meta(charset="utf-8")
+   meta(name="viewport" content="width=device-width, initial-scale=1.0")
+   meta(http-equiv="X-UA-Compatible" content="IE=edge")
+   meta(name="description" content=" ")
+   meta(name="keywords" content=" ")
+   link(href="css/style.css", rel="stylesheet")
+   link(href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet")
+
+   title Fancybox
+ body
+   // START FANCYBOX
+   include component/fancybox/slider
+   include component/fancybox/form
+   include component/fancybox/video
+   // END FANCYBOX
+
+   // include plugin jquery
+   script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+
+   //Start fancybox
+   script(src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js")
+   script(src="js/sliderFancybox.js")

@@ -1,0 +1,52 @@
+h1{
+  text-align: center;
+  font-size: 39px;
+  text-transform: uppercase;
+}
+
+.multi-gorizont {
+   max-width: 1000px;
+   width: 100%;
+   margin: 0 auto;
+   position: relative;
+   height: 500px;
+     .slider-for2{
+       float: right;
+       max-width: 800px;
+       width: 100%;
+      .slick-slide{
+        background-color: red;
+        h3{
+        color: #fff;
+        text-align: center;
+        }
+      }
+    }
+    .slider-nav2{
+        float: left;
+        max-width: 100px;
+        width: 100%;
+      .slick-slide{
+       background-color: blue;
+       h3{
+        color: #fff;
+        text-align: center;
+       }
+      }
+    }
+    .prev {
+      position: absolute;
+      left: 32px;
+      top: -50px;
+      z-index: 10;
+      cursor: pointer;
+    }
+    
+    .next {
+      position: absolute;
+      right: 35px;
+      top: 370px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+  }

@@ -1,0 +1,46 @@
+h1{
+  text-align: center;
+  font-size: 39px;
+  text-transform: uppercase;
+}
+ .multi-vertical{
+   max-width: 1000px;
+   width: 100%;
+   margin: 0 auto;
+   position: relative;
+   .slider-for{
+    .slick-slide{
+      background-color: red;
+      h3{
+      color: #fff;
+      text-align: center;
+      }
+    }
+  }
+  .slider-nav{
+      margin-top: 50px;
+    .slick-slide{
+     background-color: blue;
+     h3{
+      color: #fff;
+      text-align: center;
+     }
+    }
+  }
+}
+
+
+.prev {
+  position: absolute;
+  left: -52px;
+  top: -30px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.next {
+  position: absolute;
+  right: -55px;
+  top: -30px;
+  cursor: pointer;
+}

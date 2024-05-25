@@ -1,0 +1,99 @@
+.rangeSlider {
+  max-width: 370px;
+  width: 100%;
+  position: relative;
+}
+
+.example-val {
+  color: #FFFFFF;
+}
+
+.noUi-handle {
+  border-radius: 100px !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.noUi-handle:before {
+  display: none !important;
+}
+
+.noUi-handle:after {
+  width: 9px !important;
+  height: 9px !important;
+  background-color: #20c063 !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  left: 2px !important;
+  top: 2px !important;
+}
+
+.noUi-horizontal {
+  height: 7px !important;
+}
+
+.noUi-target {
+  border: none !important;
+}
+
+.noUi-connect {
+  background: #20c063 !important;
+}
+
+html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
+  right: -6px !important;
+  cursor: pointer;
+  top: -4px !important;
+}
+
+#lower-value {
+  position: absolute;
+  left: 0;
+  color: #848484;
+  font-size: 13px;
+  top: 50px;
+}
+
+#upper-value {
+  position: absolute;
+  right: 0;
+  color: #848484;
+  font-size: 13px;
+  top: 50px;
+}
+
+#lower-value:after {
+  content: "$";
+  padding-left: 3px;
+}
+
+#upper-value:after {
+  content: "$";
+  padding-left: 3px;
+}
+
+.rangeSliderPrice {
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 13px;
+  position: relative;
+  top: -10px;
+}
+
+.rangeSliderPrice span {
+  color: #20c063;
+  padding: 0 3px;
+}
+
+.filterRange {
+  position: relative;
+  top: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  flex-basis: 320px;
+  max-width: 320px;
+  width: 100%;
+  margin: 10% auto 0;
+}

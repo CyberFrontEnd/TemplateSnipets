@@ -1,0 +1,33 @@
+doctype html
+html(lang="ru")
+ head
+   meta(charset="utf-8")
+   meta(name="viewport" content="width=device-width, initial-scale=1.0")
+   meta(http-equiv="X-UA-Compatible" content="IE=edge")
+   meta(name="description" content=" ")
+   meta(name="keywords" content=" ")
+   link(href="css/style.css", rel="stylesheet")
+   link(href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet")
+
+   title Slider
+ body
+   // START SLIDER
+   include component/slider/multiple
+   include component/slider/center
+   include component/slider/multi-vertical
+   include component/slider/multi-gorizontal
+   // END SLIDER
+
+   // include plugin jquery
+   script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+
+   //Start fancybox
+   script(src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js")
+
+   //Start slider slick
+   script(src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
+   script(src="js/center.js")
+   script(src="js/slick.js")
+   script(src="js/multiple.js")
+   script(src="js/multi-vertical.js")
+   script(src="js/multi-horizonta.js")
