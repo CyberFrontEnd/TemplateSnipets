@@ -44,8 +44,8 @@ $(document).ready(function () {
 
       // make numbers whole
       format: {
-        to: value => value,
-        from: value => value
+        to: value => parseInt(value),
+        from: value => parseInt(value)
       }
     });
 
